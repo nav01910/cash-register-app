@@ -27,7 +27,7 @@ checkBtn.addEventListener("click", function(){
         }
     }else if(!(Number(billAmount.value) - 0)){
         // console.log(typeof(Number(billAmount.value))-0)
-        showMessage("Enter a numeric value.")
+        showMessage("Enter a numeric value greater than 0.")
     }else {
         showMessage("⚠ Enter valid bill amount.");
     }
