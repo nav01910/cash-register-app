@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+body{
+    font-family: 'Rowdies', cursive;
+}
+
+.heading {
+    text-align: center;
+    color:blueviolet
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin:auto;
+}
+
+th, td{
+    border: 1px solid black;
+    border-radius: 1rem;
+    border-color: blueviolet;
+    width: 10%;
+    padding: 0.5rem;
+}
+
+#btn {
+    width:15%;
+    margin:2rem auto;
+    padding:1rem;
+    border-radius: 10px;
+    background-color: rgb(214, 186, 240);
+    color:white;
+    font-family: 'Rowdies', cursive;
+}
+
+#bill-amount, #cash-given{
+    margin: 1rem auto;
+    width: 40%;
+    height:3vh;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border-color: blueviolet;
+}
