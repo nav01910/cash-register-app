@@ -15,6 +15,7 @@ checkBtn.addEventListener("click", function(){
 
     if(billAmount.value > 0){
         if(change >= 0){
+            message.style.display = "none";
             for (var i = 0; i < arr.length; i++) {
                 var res = Math.floor(change / arr[i]);
                 totalNotes[i].innerHTML = res;
@@ -35,5 +36,6 @@ checkBtn.addEventListener("click", function(){
 })
 
 function showMessage(error){
+    message.style.display = "block";
     message.innerHTML = error;
 }
